@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  color: #ffcc00;
+}
+
+#outputText {
+  border: 1px solid #555;
+  min-height: 200px;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#copyBtn {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#inputText {
+  width: 100%;
+  
+  margin-bottom: 10px;
+}
+
+#btnEncriptar, #btnDesencriptar {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+}
+
+#btnEncriptar:hover, #btnDesencriptar:hover, #copyBtn:hover {
+  background-color: #e5b300;
+}
